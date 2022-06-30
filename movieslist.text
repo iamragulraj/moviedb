@@ -1,0 +1,9 @@
+movie.db;
+CREATE TABLE movie(movie_name text,actor text,actoress text,director text,year_of_release integer NOT NULL);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('doctor','sivakarthikeyen','priyanka','shivakarthikeyan',2021,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('theri','vijay','samantha','murugadoss',2010,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('singam1','surya','anushka','shiva',2011,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('enthiran','rajinikath','aishwariya','shankar',2010,);
+//for query
+SELECT * FROM movies;
+SELECT movie FROM movies WHERE actor='Rajinikanth';
